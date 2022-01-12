@@ -1,10 +1,11 @@
 apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
 kind: Deployment
 metadata:
-  name: basic-flask-app-deployment
+  name: my-flask-deployment
   labels:
     app: flask
 spec:
+  replicas: 1
   selector:
     matchLabels:
       app: flask
@@ -14,8 +15,8 @@ spec:
         app: flask
     spec:
       containers:
-      - name: basic-flask-app
-        image: manojjahgirdar/basic-flask-app:v1.0
+      - name: my-flask-app
+        image: manojjahgirdar/my-flask-app:1.0
         ports:
         - containerPort: 8080
 
@@ -24,7 +25,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: basic-flask-app-service
+  name: my-flask-app-service
 spec:
   selector:
     app: flask
@@ -32,5 +33,5 @@ spec:
   - protocol: TCP
     port: 8080
     targetPort: 8080
-    nodePort: 32000
+    nodePort: 32200
   type: NodePort
