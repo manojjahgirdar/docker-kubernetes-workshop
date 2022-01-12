@@ -6,8 +6,20 @@ As a Software Developer, my day to day job includes building Applications, APIs,
 1. [Storing the Container Image in a Container Registry](#storing-the-container-image-in-a-container-registry)
 1. [Deploying the Application on a Kubernetes Cluster](#deploying-the-application-on-a-kubernetes-cluster)
 
+## Pre-requisite
+
+1. [Python 3.x](https://www.python.org/downloads/)
+1. [Docker Account](https://hub.docker.com/)
+1. [Docker CLI](https://docs.docker.com/get-docker/)
+1. [Kubernetes Cluster]()
+1. [Kubectl CLI](https://kubernetes.io/docs/tasks/tools/)
+
+
 ## Developing a basic Flask or NodeJs Application
 
+<summary><b>Python Flask App</b></summary>
+
+<details>
 Lets start be developing a basic Python Flask application which we will containerize, store and deploy.
 
 - As a best practice create a Virtual Environment to get started. In terminal, run the following command:
@@ -87,7 +99,8 @@ Lets start be developing a basic Python Flask application which we will containe
     ```
 
 - If you see Hello World message, congrats you have successfully built the basic flask application.
-
+</details>
+        
 ## Containerizing the Application
 
 Now lets Containerize the flask application.
@@ -213,3 +226,4 @@ Now that you have your application containerized, you can store it in a containe
     Password:
     Login Succeeded
     ```
+
