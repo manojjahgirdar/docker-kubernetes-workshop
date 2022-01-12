@@ -1,13 +1,23 @@
 # Containers, Docker and Kubernetes Workshop
 
 As a Software Developer, my day to day job includes building Applications, APIs, etc. I use some of the popular frameworks such as Python Flask, NodeJs to build the applications or APIs. I could Code an Application and running it in my machine, excellent! Thats what I learn't in my college. And if a friend of mine asks for the Application, sure here is a github link to it just make sure you download it and then run pip install dependencies or npm install dependencies. As Naive as I sounded, I realised that is not how you distribute an application, there are certain best practices such as Containerizing the Application and deploying it on a Kubernetes cluster. Hence I started to learn about Containers, Docker and Kubernetes. I used to face challenges quite often. Challenges such as not knowing how to write a dockerfile, dockerfile failed to build, even if it built successfully the image size would be large, not knowing to write deployment scripts, unable to access the deployed app from kubernetes cluster and the list goes on. Hence I decided to create a simple workshop that covers the following:
-1. [Developing a basic Flask or NodeJs Application](#-developing-a-basic-flask-or-nodejs-application)
-1. [Containerizing the Application](#-containerizing-the-application)
-1. [Storing the Container Image in a Container Registry](#-storing-the-container-image-in-a-container-registry)
-1. [Deploying the Application on a Kubernetes Cluster](#-deploying-the-application-on-a-kubernetes-cluster)
+1. [Developing a basic Flask or NodeJs Application](#developing-a-basic-flask-or-nodejs-application)
+1. [Containerizing the Application](#containerizing-the-application)
+1. [Storing the Container Image in a Container Registry](#storing-the-container-image-in-a-container-registry)
+1. [Deploying the Application on a Kubernetes Cluster](#deploying-the-application-on-a-kubernetes-cluster)
+
+## Pre-requisite
+
+1. [Python 3.x](https://www.python.org/downloads/)
+1. [Docker Account](https://hub.docker.com/)
+1. [Docker CLI](https://docs.docker.com/get-docker/)
+1. [Kubernetes Cluster]()
+1. [Kubectl CLI](https://kubernetes.io/docs/tasks/tools/)
+
 
 ## Developing a basic Flask or NodeJs Application
 
+<Python Flask App>
 Lets start be developing a basic Python Flask application which we will containerize, store and deploy.
 
 - As a best practice create a Virtual Environment to get started. In terminal, run the following command:
@@ -87,7 +97,8 @@ Lets start be developing a basic Python Flask application which we will containe
     ```
 
 - If you see Hello World message, congrats you have successfully built the basic flask application.
-
+</Python Flask App>
+        
 ## Containerizing the Application
 
 Now lets Containerize the flask application.
@@ -213,3 +224,4 @@ Now that you have your application containerized, you can store it in a containe
     Password:
     Login Succeeded
     ```
+
