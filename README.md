@@ -17,9 +17,7 @@ As a Software Developer, my day to day job includes building Applications, APIs,
 
 ## Developing a basic Flask or NodeJs Application
 
-<summary><b>Python Flask App</b></summary>
-
-<details>
+<Python Flask App>
 Lets start be developing a basic Python Flask application which we will containerize, store and deploy.
 
 - As a best practice create a Virtual Environment to get started. In terminal, run the following command:
@@ -99,7 +97,7 @@ Lets start be developing a basic Python Flask application which we will containe
     ```
 
 - If you see Hello World message, congrats you have successfully built the basic flask application.
-</details>
+</Python Flask App>
         
 ## Containerizing the Application
 
