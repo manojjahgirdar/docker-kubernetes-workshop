@@ -19,7 +19,6 @@ spec:
         image: manojjahgirdar/my-flask-app:1.0
         ports:
         - containerPort: 8080
-
 ---
 
 apiVersion: v1
