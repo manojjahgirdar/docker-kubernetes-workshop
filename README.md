@@ -10,18 +10,4 @@ In this tutorial, you will learn:
 - Write a deployment script
 - Deploy it on a kubernetes cluster
 
-## Pre-requisite
-
-1. [Python 3.x](https://www.python.org/downloads/)
-1. [Docker Account](https://hub.docker.com/)
-1. [Docker CLI](https://docs.docker.com/get-docker/)
-1. [Kubernetes Cluster](deploy/#51-create-a-kubernetes-cluster)
-1. [Kubectl CLI](https://kubernetes.io/docs/tasks/tools/)
-
-## Steps
-
-1. [Developing a basic Python or NodeJs Application](/build/)
-1. [Containerizing the Application](/containerize/)
-1. [Storing the Container Image in a Container Registry](/store/)
-1. [Writing the deployment scripts](/deploy-script/)
-1. [Deploying the Application on a Kubernetes Cluster](/deploy/)
+Tutorial link - <https://manojjahgirdar.github.io/docker-kubernetes-workshop/>
