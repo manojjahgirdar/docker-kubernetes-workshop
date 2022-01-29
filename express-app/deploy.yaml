@@ -3,19 +3,19 @@ kind: Deployment
 metadata:
   name: sample-app
   labels:
-    app: flask
+    app: express
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: flask
+      app: express
   template:
     metadata:
       labels:
-        app: flask
+        app: express
     spec:
       containers:
       - name: sample-app
-        image: manojjahgirdar/sample-app:v2.0
+        image: manojjahgirdar/sample-app:v1.0
         ports:
-        - containerPort: 8080
+        - containerPort: 3000

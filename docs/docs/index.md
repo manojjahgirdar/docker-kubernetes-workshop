@@ -20,6 +20,13 @@ In this tutorial, you will learn:
 
 ## Steps
 
+```mermaid
+graph LR;
+    A[Application]-->B[Container Image];
+    B-->C[Store image in Container Registry];
+    C-->D[Deploy on Kubernetes];
+```
+
 1. [Developing a basic Python or NodeJs Application](/build/)
 1. [Containerizing the Application](/containerize/)
 1. [Storing the Container Image in a Container Registry](/store/)

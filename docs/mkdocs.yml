@@ -1,0 +1,69 @@
+site_name: Containers, Docker and Kubernetes for Beginners
+site_url: https://containers.io
+nav:
+  - Introduction: index.md
+  - 1. Developing a basic Python or NodeJs Application: build.md
+  - 2. Containerizing the Application: containerize.md
+  - 3. Storing the container image in a container registry: store.md
+  - 4. Writing the deployment scripts: deploy-script.md
+  - 5. Deploying the application on a Kubernetes cluster: deploy.md
+  - Conclusion: conclusion.md
+theme:
+  name: material
+  features:
+    - toc.integrate
+    - navigation.top
+    - content.tabs.link
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      primary: blue
+      accent: light blue 
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: blue
+      accent: light blue 
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  icon:
+    admonition:
+      note: material/adb
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin 
+      link: https://linkedin.com/manojjahgirdar
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/iam_manojjag
+    - icon: fontawesome/brands/github
+      link: https://github.com/manojjahgirdar
+copyright: This GitHub pages is maintained by <a href="https://github.com/manojjahgirdar"> <b> Manoj Jahgirdar.</b></a>
+repo_url: https://github.com/manojjahgirdar/docker-kubernetes-workshop
+repo_name: Goto GitHub Repository
+
+extra_css:
+  - https://unpkg.com/mermaid@8.5.1/dist/mermaid.css
+extra_javascript:
+  - https://unpkg.com/mermaid@8.5.1/dist/mermaid.min.js
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  
+  
+  
