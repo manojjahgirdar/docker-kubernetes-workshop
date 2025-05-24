@@ -4,11 +4,6 @@ As a Software Developer, my day to day job includes building Applications, APIs,
 </p>
 In this tutorial, you will learn:
 <img width="980" alt="Screenshot 2025-05-24 at 11 38 24 PM" src="https://github.com/user-attachments/assets/d73c4332-0888-48bc-8a17-0441a56095c9" />
-- How to build a basic python flask app or a basic NodeJs Express app 
-- Containarize the application
-- Store it in container registry
-- Write a deployment script
-- Deploy it on a kubernetes cluster
 
 Tutorial link - <https://manojjahgirdar.github.io/docker-kubernetes-workshop/>
 
